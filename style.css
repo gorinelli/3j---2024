@@ -1,6 +1,6 @@
 :root{
     --cor-de-fundo:#036868;
-    --verde: #3d553a;
+    --verde: #28f70d;
     --branco: #FFFFFF;
     --botao-ativo: #3eccc0;
     --botao-inativo: rgb(80, 190, 166);
@@ -32,9 +32,6 @@ span{
   font-size: 32px;
 }
 
-.botoes{
-  display: block;
-}
 
 .botao{
   background-color: var(--botao-inativo);
@@ -50,12 +47,21 @@ span{
   border-right: 2px solid var(--botao-ativo);
 }
 
+.botoes{
+  display: block;   
+ }
+
 .botao:first-child{
     border-radius: 20px 20px 0 0;
 }
 
 .botao:last-child{
   border-radius: 0 0 20px 20px;
+}
+
+.ativo{
+  background-color: var(--botao-ativo);
+  border-bottom: 5px  solid var(--verde);
 }
 
 @media screen and (min-width: 700px){
