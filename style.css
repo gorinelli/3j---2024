@@ -1,5 +1,5 @@
 :root {
-    --cor-de-fundo: #0e0e0e;
+    --cor-de-fundo: #000000;
     --verde: #1aa5a5;
     --branco: #1a7f86;
     --botao-ativo: #55b3b3;
@@ -82,8 +82,9 @@ span{
 
 .aba-conteudo-titulo-secundario{
 text-align: center;
-color: var(--verde)
-text-transform: ;
+color: var(--verde);
+text-transform: uppercase;
+
 }
 @media screen and (min-width:700px){
     .botoes{
