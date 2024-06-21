@@ -16,7 +16,13 @@ segundos=(tempoObjetivo1-agora)/100
 minutos=segundos/60
 horas=minutos/60
 dias=horas/60
+segundos=Math.floor(segundos);
+minutos=Math.floor(minutos);
+horas=Math.floor(horas);
+dias=Math.floor(dias);
+tempo[0].textContent=`Falta ${dias} dias, ${horas}horas, ${minutos} minutos e ${segundos} segundos`
 console.log(tempo);
+
 for(let i = 0; 1 < botoes.length ; i++){ 
     botoes[i].onclick = function() {
         for (j=0;j<botoes.length;j++){
