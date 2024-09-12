@@ -86,6 +86,23 @@ body{
     color: var(--verde);
     text-transform: uppercase;
 }
+
+.contador{
+    display: flex;
+    justify-content: center;
+}
+
+.contador-digito-numero{
+    font-size: 100px;
+    margin: 0;
+}
+
+.contador-digito-texto{
+    color: var(--verde);
+    font-size: 20px;
+    margin: 0;
+}
+
 @media screen and (min-width: 700px){
     .botoes{
         display: flex;
